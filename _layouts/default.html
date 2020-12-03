@@ -1,11 +1,15 @@
 ---
 ---
+{% assign title = page.title | default: site.title | escape %}
+{% assign description = page.excerpt | default: site.description | strip_html | strip_newlines | truncate: 160 %}
 <!doctype html>
 <html lang="en">
   <head>
+  <meta name="description" content="{{ description }}">
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <!-- CDS Bootstrap Implementation -->
   <link rel="stylesheet" href="{{ site.CDNurl }}{{ site.baseCDNurl }}css/main.min.css" type="text/css">
   <!-- Fontawesome CSS -->
@@ -14,18 +18,61 @@
   <link rel="stylesheet" href="{{ site.CDNurl }}{{ site.baseCDNurl }}css/datepicker.css" type="text/css" />
   <link rel="stylesheet" href="{{ site.CDNurl }}{{ site.baseCDNurl }}css/datepicker-cds.css" type="text/css" />
   <!-- FB -->
-  <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{ site.title }}" />
+
+
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ site.url }}" />
+<meta property="og:title" content="{{ title }}" />
+<meta property="og:description" content="{{ description }}" />
+<meta property="og:image" content="{{ site.image_social }}" />
+<!-- 1200x 628-900 (linked image 628, fb image 900, highlighted image 717) 2.7:1 or 16:9 event -->
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="{{ title }}" />
+<meta property="twitter:description" content="{{ site.description }}" />
+<meta property="twitter:image" content="{{ site.image_social }}" />
+<meta name="twitter:url" content="https://www.popupmagazine.com/">
+
   <meta property="og:url" content="{{ site.url }}" />
   <meta property="og:description" content="{{ site.description }}" />
   <!-- TWITTER -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{{ site.title }}" />
-  <meta property="twitter:description" content="{{ site.description }}" />
+  <meta name="twitter:site" content="@{{ site.twitter_username }}">
+  <meta name="twitter:title" content="{{ title }}" />
+  <meta property="twitter:description" content="{{ description }}" />
   <meta property="twitter:image" content="full path of the thumbnail image" />
+  <!-- 1024 x 512 2:1/16:9 -->
 
-  <title>{{ site.title }}</title>
+{% comment %}
+
+    // Example socials
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Pop-Up Magazine">
+    <link rel="icon" sizes="32x32" href="/images/icons/icon-32x32.png">
+    <link rel="icon" sizes="192x192" href="/images/icons/chrome-touch-icon-192x192.png">
+
+    <link rel="shortcut icon" sizes="16x16" href="/images/icons/favicon.ico">
+    <link rel="shortcut icon" sizes="32x32" href="/images/icons/icon-32x32.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Pop-Up Magazine">
+    <link rel="apple-touch-icon" href="/images/icons/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="/images/icons/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#FFC900">
+
+    <!-- Color the status bar on Android -->
+    <meta name="theme-color" content="#FFC900">
+
+{% endcomment %}
+
+  <title>{{ title }}</title>
 
   <style>
     <!-- jdk::: We need to encapsulate all this css -->
