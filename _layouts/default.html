@@ -7,24 +7,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- CDS Bootstrap Implementation -->
-  <link rel="stylesheet" href="{{ site.CDNurl }}chiwds/0.9.3/css/main.min.css" type="text/css">
+  <link rel="stylesheet" href="{{ site.CDNurl }}{{ site.baseCDNurl }}css/main.min.css" type="text/css">
   <!-- Fontawesome CSS -->
   <link rel="stylesheet" href="{{ site.CDNurl }}FontAwesome-5.13.0/css/all.min.css" type="text/css">
   <!-- Datepicker -->
-  <link rel="stylesheet" href="{{ site.CDNurl }}chiwds/0.9.3/css/datepicker.css" type="text/css" />
-  <link rel="stylesheet" href="{{ site.CDNurl }}chiwds/0.9.3/css/datepicker-cds.css" type="text/css" />
+  <link rel="stylesheet" href="{{ site.CDNurl }}{{ site.baseCDNurl }}css/datepicker.css" type="text/css" />
+  <link rel="stylesheet" href="{{ site.CDNurl }}{{ site.baseCDNurl }}css/datepicker-cds.css" type="text/css" />
   <!-- FB -->
-  <meta property="og:site_name" content="The Chicago Design System: Bootstrap implementation">
+  <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Chicago Design System" />
-  <meta property="og:url" content="https://chicago.github.io/design-system-site/" />
-  <meta property="og:description" content="Welcome to the Chicago Design System as a Bootstrap 4 theme, with associated media for creating Internet applications." />
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:description" content="{{ site.description }}" />
   <!-- TWITTER -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="usually page title, but could be different" />
-  <meta property="twitter:description" content="card content, usually same as meta desc" />
+  <meta name="twitter:title" content="{{ site.title }}" />
+  <meta property="twitter:description" content="{{ site.description }}" />
   <meta property="twitter:image" content="full path of the thumbnail image" />
-  <title>Chicago Digital Services</title>
+
+  <title>{{ site.title }}</title>
 
   <style>
     <!-- jdk::: We need to encapsulate all this css -->
@@ -103,7 +104,7 @@
     <div class="cds-logo" id="logo">
       <em class="cds-logo-text">
         <a href="/design-system-site/" title="Home">
-          <img src="{{ site.CDNurl }}chiwds/0.9.3/img/chicago.gov-logo.png" alt="Logo of the City of Chicago">
+          <img src="{{ site.CDNurl }}{{ site.baseCDNurl }}img/chicago.gov-logo.png" alt="Logo of the City of Chicago">
           <h1 class="cds-header-title">Chicago</h1>
         </a>
       </em>
@@ -113,7 +114,7 @@
 <nav role="navigation" class="cds-nav">
     <div class="cds-nav-inner">
       <button class="cds-nav-close">
-        <img src="{{ site.CDNurl }}chiwds/0.9.3/img/close.svg" alt="close">
+        <img src="{{ site.CDNurl }}{{ site.baseCDNurl }}img/close.svg" alt="close">
       </button>
       <ul class="cds-nav-primary cds-accordion">
         <li><a class="cds-nav-link" href="/design-system-site/"><span>Home</span></a></li>
@@ -231,7 +232,7 @@
         <div class="col-sm-6">
     
           <div class="media footer-media">
-            <img class="align-self-center mr-3" src="{{ site.CDNurl }}chiwds/0.9.3/img/city_seal_clr.png" alt="City of Chicago">
+            <img class="align-self-center mr-3" src="{{ site.CDNurl }}{{ site.baseCDNurl }}img/city_seal_clr.png" alt="City of Chicago">
             <div class="media-body align-self-center">
               <h3 class="mt-0">City of Chicago</h3>
             </div>
@@ -261,10 +262,11 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jdk::: I don't think we need those old USWDS includes? I wonder how much of this we can update as well? -->
     <script src="{{ site.CDNurl }}jQuery-3.4.1/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
     <script src="{{ site.CDNurl }}Bootstrap-4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-    <script src="{{ site.CDNurl }}chiwds/0.9.3/js/uswds.min.js"></script>
-    <script src="{{ site.CDNurl }}chiwds/0.9.3/js/datepicker.min.js"></script>
+    <script src="{{ site.CDNurl }}{{ site.baseCDNurl }}js/uswds.min.js"></script>
+    <script src="{{ site.CDNurl }}{{ site.baseCDNurl }}js/datepicker.min.js"></script>
 
     <!-- DATEPICKER Init-->
     <script>
