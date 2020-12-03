@@ -20,15 +20,16 @@
 
 title: Chicago Digital Services
 description: >- # this means to ignore newlines until "baseurl:"
-  We deliver better services through community engagement and digital tools. 
+  We deliver better services through community engagement and digital tools.
 
 email: design.system@cityofchicago.org # jdk::: this needs to be changed!
-twitter_username: ChiDesignDir
+twitter_username: ChiDesignDir # site twitter name
+twitter_authorname: ChiDesignDir # default author name
 github_username:  Chicago
+image_social: /img/public-mark/public-mark-social-share.png
 
 
-
-url: "https://digital.chicago.gov/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://digital.chicago.gov" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 
 CDNurl: "https://webapps1.chicago.gov/cdn/" # the URL where common assets are located, like css files.
