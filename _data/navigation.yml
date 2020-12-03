@@ -1,0 +1,165 @@
+# This is the configuration for the site navigation.
+# This file defines lists of link text and destination
+# locations for display in document templates.
+
+# For instance, if you have a "primary" navigation list here, you
+# can use that as your header's primary navigation by setting
+# `primary.links` to "primary":
+#
+primary:
+  links: primary
+
+primary:
+  - text: Design System
+    links:
+      - text: All assets
+        href: /all
+      - text: Basics
+        href: /basics
+      - text: City Seal
+        href: /city-seal
+      - text: Flag
+        href: /flag
+      - text: Municipal Device
+        href: /municipal-device
+      - text: Public Mark
+        href: /public-mark
+      - text: UI patterns
+        href: https://www.figma.com/file/g9vsh5gXm99OgZR4OGiOIm/Chicago-Design-System-Component-Library-sticker-sheet?node-id=0%3A1
+        external: true
+      - text: Typography
+        href: /typography
+  - text: HOWTO
+    links:
+      - text: Accessibility
+        href: /accessibility
+      - text: Design methods
+        href: https://chicago.github.io/design-methods
+        external: true
+      - text: Quick Start Guide
+        href: /start/
+      - text: Principles
+        href: /principles
+  - text: Office
+    links:
+      - text: About us
+        href: /about-us/
+      - text: Blog
+        href: /blog
+      - text: Change log
+        href: /changelog
+      - text: Colophon
+        href: /colophon
+      - text: Credits
+        href: /credits/
+      - text: Our Work
+        href: /our-work
+      - text: Sites
+        href: /sites
+
+secondary:
+  - text: Get Started
+    href: /start/
+  - text: Blog
+    href: /blog
+  - text: Credits
+    href: /credits/
+  - text: chicago.gov
+    href: https://www.chicago.gov
+    external: true
+
+accessibility:
+  - text: Accessibility Home Page
+    href: /accessibility/
+  - text: Alternative Versions
+    href: '/accessibility/alternative-versions/'
+  - text: Checklist
+    href: '/accessibility/checklist/'
+  - text: Color
+    href: '/accessibility/color/'
+  - text: CSS
+    href: '/accessibility/css/'
+  - text: Flashing
+    href: '/accessibility/flashing/'
+  - text: Forms
+    href: '/accessibility/forms/'
+  - text: Frames
+    href: '/accessibility/frames/'
+  - text: Headings
+    href: '/accessibility/headings/'
+  - text: Hidden Content
+    href: '/accessibility/hidden-content/'
+  - text: IFrame Form
+    href: '/accessibility/iframeform/'
+  - text: Images
+    href: '/accessibility/images/'
+  - text: Keyboard
+    href: '/accessibility/keyboard/'
+  - text: Landmarks
+    href: '/accessibility/landmarks/'
+  - text: Links
+    href: '/accessibility/links/'
+  - text: Multimedia
+    href: '/accessibility/multimedia/'
+  - text: Page Titles
+    href: '/accessibility/page-titles/'
+  - text: Plugins
+    href: '/accessibility/plugins/'
+  - text: Properties
+    href: '/accessibility/properties/'
+  - text: Tables
+    href: '/accessibility/tables/'
+  - text: Timeouts
+    href: '/accessibility/timeouts/'
+  - text: Tools
+    href: '/accessibility/tools/'
+  - text: Videos
+    href: '/accessibility/training-videos/'
+  - text: Writing Guide
+    href: '/accessibility/writing-guide/'
+
+footer:
+  - text: About the CDS
+    href: /colophon
+  - text: About us
+    href: /about-us/
+  - text: Accessibility
+    href: /accessibility
+  - text: Accessibility statement
+    href: /accessibility-statement
+  - text: Blog
+    href: /blog
+  - text: CDS Web Standards
+    href: /about/
+  - text: Change log
+    href: /changelog
+  - text: Our Work
+    href: /our-work
+  - text: Principles
+    href: /principles
+  - text: Sites
+    href: /sites
+  - text: All assets
+    href: /all
+  - text: Basics
+    href: /basics
+  - text: City Seal
+    href: /city-seal
+  - text: Flag
+    href: /flag
+  - text: Municipal Device
+    href: /municipal-device
+  - text: Public Mark
+    href: /public-mark
+  - text: UI patterns
+    href: https://www.figma.com/file/g9vsh5gXm99OgZR4OGiOIm/Chicago-Design-System-Component-Library-sticker-sheet?node-id=0%3A1
+    external: true
+  - text: Typography
+    href: /typography
+  - text: Our Work
+    href: /our-work
+  - text: Design methods
+    href: https://chicago.github.io/design-methods
+    external: true
+  - text: Quick Start Guide
+    href: /start/
