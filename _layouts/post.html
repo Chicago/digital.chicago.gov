@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section class="intro">
+
+  <div class="wrap">
+
+    <h1>{{ page.title }}</h1>
+  <p>{{ page.date | date: "%B %d, %Y" }}</p>
+  <p>{{ page.author }}</p>
+<ul>
+    {% for tag in page.tags %}
+      <p>{{tag}}</p>
+    {% endfor %}
+</ul>
+
+    {{ page.content }}
+
+  </div>
+
+</section>

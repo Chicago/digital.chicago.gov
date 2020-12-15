@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div>
+<section class="portfolio">
+
+    <div class="content-wrap portfolio-wrap">
+
+    {% for project in site.projects reversed %}
+        {% for cat in project.categories %}
+          {% if cat == page.tag %}
+            {% include project-card.html %}
+          {% endif %}
+        {% endfor %}
+    {% endfor %}
+    </div>
+
+</section>
+
+<section>
+
+    {% for post in site.categories[page.tag] %}
+      {% include post_preview.html %}
+    {% endfor %}
+</section>
+
+</div>
