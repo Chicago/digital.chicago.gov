@@ -23,13 +23,10 @@ The names of departments need to be cleaned to condense this chart.
 <canvas id="deptRowsChart" width="200" height="500"></canvas>
 -->
 ## Most Popular Datasets
-This could be one chart where the user can choose how far to look back, instead of displaying these 4 options.
-### Last 24 Hours 
-<canvas id="dept24hoursChart" width="200" height="100"></canvas>
-### Last Week
-<canvas id="deptWeekChart" width="200" height="100"></canvas>
-### Last Month
-<canvas id="deptMonthChart" width="200" height="100"></canvas>
-### Last Year
-<canvas id="deptYearChart" width="200" height="100"></canvas>
+<button id="last24">Last 24 Hours</button>
+<button id="lastWeek">Last Week</button>
+<button id="lastMonth">Last Month</button>
+<button id="lastYear">Last Year</button>
+<canvas id="lastChart" width="200" height="100"></canvas>
+
 
