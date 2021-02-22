@@ -464,6 +464,7 @@ async function start(){
         lc.data.labels = dept24hoursData.labels;
         lc.data.datasets.forEach((dataset) => {
           dataset.data = dept24hoursData.counts;
+          dataset.label = "Last 24 Hours"
         });
         lc.update();
       });
@@ -476,6 +477,7 @@ async function start(){
         lc.data.labels = deptWeekData.labels;
         lc.data.datasets.forEach((dataset) => {
           dataset.data = deptWeekData.counts;
+          dataset.label = "Last Week"
         });
         lc.update();
       });
@@ -489,6 +491,7 @@ async function start(){
         lc.data.labels = deptMonthData.labels;
         lc.data.datasets.forEach((dataset) => {
           dataset.data = deptMonthData.counts;
+          dataset.label = "Last Month"
         });
         lc.update();
       });
@@ -502,6 +505,7 @@ async function start(){
         lc.data.labels = deptYearData.labels;
         lc.data.datasets.forEach((dataset) => {
           dataset.data = deptYearData.counts;
+          dataset.label = "Last Year"
         });
         lc.update();
       });
