@@ -7,7 +7,7 @@ layout: home
 
 # Open Data Realtime Report
 
-<p>Chicago is a leader in open data. Open data <a href="http://opendatatoolkit.worldbank.org/en/open-data-in-60-seconds.html">helps</a> streamline government services, stimulate economic opportunities, improve public safety, and reduce poverty. Chicago’s open data is used every day by media, scholars, businesses, financial markets, and the general public to seek answers to important questions.</p>
+<p>Chicago's open data program is a beacon of transparency in government. Open data <a href="http://opendatatoolkit.worldbank.org/en/open-data-in-60-seconds.html">helps</a> streamline government services, stimulate economic opportunities, improve public safety, and reduce poverty. Chicago’s open data is used every day by media, scholars, businesses, financial markets, and the general public to seek answers to important questions.</p>
 
 <p>Open data plays a pivotal role in informed public discourse. Opening the books on government makes it easier to access facts, enabling more robust debate about what to change and how to change it. By entrusting the public with access to their data, a transparent and open government builds trust and encourages participation.</p>
 
