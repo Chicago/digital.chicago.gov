@@ -7,7 +7,37 @@ layout: home
 
 # Open Data Realtime Report
 
-This is a report about open data and it's realtime.
+<p>Chicago is a leader in open data. Open data <a href="http://opendatatoolkit.worldbank.org/en/open-data-in-60-seconds.html">helps</a> streamline government services, stimulate economic opportunities, improve public safety, and reduce poverty. Chicago’s open data is used every day by media, scholars, businesses, financial markets, and the general public to seek answers to important questions.</p>
+
+<p>Open data plays a pivotal role in informed public discourse. Opening the books on government makes it easier to access facts, enabling more robust debate about what to change and how to change it. By entrusting the public with access to their data, a transparent and open government builds trust and encourages participation.</p>
+
+<p>Open datasets are freely accessible to anyone in the world. They are formatted for ease and readability. They are also machine-readable and immediately ready for data analysis.</p>
+
+<p>This report provides real-time metrics on Chicago’s open data program and is intended to inform public debate and help identify opportunities for growth and expansion of this important program.</p>
+
+<p>Some highlights of our current datasets are listed below. Find these and more open data at <a href="https://data.cityofchicago.org">data.cityofchicago.org</a></p>
+
+For the following categories, find a design system element to use the screen better.
+
+#### Public Health
+
+<p>COVID-19 Status and Impact<br>Food and Medicine Access Maps</p>
+
+#### Government Spending
+
+<p>City Budget<br>Salaries<br>Contracts and Payments<br>Tax Increment Financing (TIF)</p>
+
+#### Public Safety
+
+<p>Arrests<br>Crimes<br>Shootings</p>
+
+#### Equity
+
+<p>TK</p>
+
+#### Mobility
+
+<p>Public Transit Use<br>Ride-hail and Taxi Trips<br>Bikeshare Use<br>Scooters Trips<br>Congestion and Traffic Conditions</p>
 
 ## Our Most Popular Datasets
 
@@ -17,6 +47,10 @@ This is a report about open data and it's realtime.
 <button id="lastYear">Last Year</button>
 
 <canvas id="lastChart" width="200" height="100"></canvas>
+
+## How Much Data is Open?
+
+<canvas id="rowHistoryChart" width="200" height="100"></canvas>
 
 ## When Were Datasets Launched?
 

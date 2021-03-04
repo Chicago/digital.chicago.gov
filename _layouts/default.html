@@ -323,6 +323,7 @@ var ctxUpdated = document.getElementById('updatedChart').getContext('2d');
 var ctxDeptCounts = document.getElementById('deptCountsChart').getContext('2d');
 //var ctxDeptVisitsDownloads = document.getElementById('deptVisitsDownloadsChart').getContext('2d');
 //var ctxDeptRows = document.getElementById('deptRowsChart').getContext('2d');
+var ctxRowHistory = document.getElementById('rowHistoryChart').getContext('2d');
 var ctxLastChart = document.getElementById('lastChart').getContext('2d');
 
 
@@ -338,6 +339,8 @@ async function getData(address) {
   // assets inventory visits + download by dept = https://data.cityofchicago.org/resource/ip5i-wfzw.json?$select=metadata_dataowner%20as%20department,sum(visits)%20as%20visits,sum(downloads)%20as%20downloads&$group=department
 
   // rows by department = https://data.cityofchicago.org/resource/ip5i-wfzw.json?$select=metadata_dataowner%20as%20department,sum(row_count)%20as%20count&$group=department&$where=Audience=%22public%22&type=%27dataset%27&$order=-count
+
+  // row history by date = https://data.cityofchicago.org/resource/he44-gjvs.json?$select=inventory_date%20as%20date,sum(row_count)%20as%20count&$group=date&$where=type=%27dataset%27&audience=%27public%27
 
   // datasets by department = https://data.cityofchicago.org/resource/ip5i-wfzw.json?$select=metadata_dataowner%20as%20department,count(department)%20as%20count&$group=department&$where=Audience=%22public%22&type=%27dataset%27&$order=-count
 
@@ -359,11 +362,13 @@ async function getData(address) {
   var labels = data.map(function(row) {
     if (row.month) {
       return new Date(row.month);
+    } else if (row.date) {
+      return new Date(row.date);
     } else if (row.department) {
       if(row.department.length > 50) {
         return row.department.substring(0,49);
-      } else return row.department;       
-    }
+      } else return row.department;
+    }        
   })
   var counts = data.map(function(row) {
     if (row.visits) {
@@ -406,11 +411,11 @@ async function start(){
   const deptCountsData = await getData('/json/department-counts.json')
 //  const deptVisitsDownloadsData = await getData('/json/department-visits-downloads.json')
 //  const deptRowsData = await getData('/json/department-rows.json')
+  const rowHistoryData = await getData('/json/row-history.json')
   const dept24hoursData = await getData('/json/24-hours.json')
   const deptWeekData = await getData('/json/week.json')
   const deptMonthData = await getData('/json/month.json')
   const deptYearData = await getData('/json/year.json')
-
 
   timeOptions = {
     scales: {
@@ -441,6 +446,21 @@ async function start(){
     }
   }
 
+  timeOptionsMonth = {
+    scales: {
+      xAxes: [{
+        type: 'time',
+        time: {
+          unit: 'month' 
+        },
+        offset: true,
+        ticks: {
+          autoSkip: false,
+        }
+      }]
+    }
+  }
+
   categoryOptions = {
     scales: {
       xAxes: [{
@@ -456,6 +476,7 @@ async function start(){
   var deptCountsChart = makeChart(ctxDeptCounts, deptCountsData, 'horizontalBar', categoryOptions, 'Public Dataset Count') 
 //  makeChart(ctxDeptVisitsDownloads, deptVisitsDownloadsData, 'horizontalBar', categoryOptions, 'Public Dataset Visits and Downloads') 
 //  makeChart(ctxDeptRows, deptRowsData, 'horizontalBar', categoryOptions, 'Public Dataset Row Counts') 
+  var rowHistoryChart = makeChart(ctxRowHistory, rowHistoryData, 'line', timeOptionsMonth, 'Rows of Data')
   var lastChart = makeChart(ctxLastChart, dept24hoursData, 'horizontalBar', categoryOptions, 'Last 24 hours')   
 
   document.getElementById('last24').addEventListener('click', function() {
