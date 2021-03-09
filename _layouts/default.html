@@ -418,6 +418,14 @@ async function start(){
   const deptYearData = await getData('/json/year.json')
 
   timeOptions = {
+    tooltips: {
+      callbacks: {
+        label: function(tooltipItems, data) {
+          const num = new Number(data.datasets[0].data[tooltipItems.index])
+          return data.datasets[0].label + ": " + num.toLocaleString();
+        }        
+      }
+    },
     scales: {
       xAxes: [{
         type: 'time',
@@ -427,11 +435,27 @@ async function start(){
         ticks: {
           autoSkip: false,
         }
+      }],
+      yAxes: [{
+        ticks: {
+          beginAtZero: true,
+          callback: function(value, index, values) {
+            return value.toLocaleString();
+          }
+        } 
       }]
     }
   }
 
   timeOptionsOffset = {
+    tooltips: {
+      callbacks: {
+        label: function(tooltipItems, data) {
+          const num = new Number(data.datasets[0].data[tooltipItems.index])
+          return data.datasets[0].label + ": " + num.toLocaleString();
+        }
+      }
+    },
     scales: {
       xAxes: [{
         type: 'time',
@@ -442,11 +466,27 @@ async function start(){
         ticks: {
           autoSkip: false,
         }
+      }],
+      yAxes: [{
+        ticks: {
+          beginAtZero: true,
+          callback: function(value, index, values) {
+            return value.toLocaleString();
+          }
+        } 
       }]
     }
   }
 
   timeOptionsMonth = {
+    tooltips: {
+      callbacks: {
+        label: function(tooltipItems, data) {
+          const num = new Number(data.datasets[0].data[tooltipItems.index])
+          return data.datasets[0].label + ": " + num.toLocaleString();
+        }   
+      }
+    },
     scales: {
       xAxes: [{
         type: 'time',
@@ -457,27 +497,49 @@ async function start(){
         ticks: {
           autoSkip: false,
         }
+      }],
+      yAxes: [{
+        ticks: {
+          beginAtZero: true,
+          callback: function(value, index, values) {
+            return value.toLocaleString();
+          }
+        } 
       }]
     }
   }
 
   categoryOptions = {
+    tooltips: {
+      callbacks: {
+        label: function(tooltipItems, data) {
+          const num = new Number(data.datasets[0].data[tooltipItems.index])
+          return data.datasets[0].label + ": " + num.toLocaleString();
+        }
+      }
+    },
     scales: {
       xAxes: [{
         categoryPercentage: 1.0,
-        barPercentage: 1.0
+        barPercentage: 1.0,
+        ticks: {
+          beginAtZero: true,
+          callback: function(value, index, values) {
+            return value.toLocaleString();
+          }
+        } 
       }]
     }
   }
 
 
   var launchedChart = makeChart(ctxLaunched, launchedData, 'line', timeOptions, 'Public Datasets Launched')
-  var updatedChart = makeChart(ctxUpdated, updatedData, 'bar', timeOptionsOffset, 'Last Data Update') 
-  var deptCountsChart = makeChart(ctxDeptCounts, deptCountsData, 'horizontalBar', categoryOptions, 'Public Dataset Count') 
+  var updatedChart = makeChart(ctxUpdated, updatedData, 'bar', timeOptionsOffset, 'Datasets Refreshed') 
+  var deptCountsChart = makeChart(ctxDeptCounts, deptCountsData, 'horizontalBar', categoryOptions, 'Public Datasets') 
 //  makeChart(ctxDeptVisitsDownloads, deptVisitsDownloadsData, 'horizontalBar', categoryOptions, 'Public Dataset Visits and Downloads') 
 //  makeChart(ctxDeptRows, deptRowsData, 'horizontalBar', categoryOptions, 'Public Dataset Row Counts') 
   var rowHistoryChart = makeChart(ctxRowHistory, rowHistoryData, 'line', timeOptionsMonth, 'Rows of Data')
-  var lastChart = makeChart(ctxLastChart, dept24hoursData, 'horizontalBar', categoryOptions, 'Last 24 hours')   
+  var lastChart = makeChart(ctxLastChart, dept24hoursData, 'horizontalBar', categoryOptions, 'Access Count - Last 24 hours')   
 
   document.getElementById('last24').addEventListener('click', function() {
     const update = () => {
@@ -485,7 +547,7 @@ async function start(){
         lc.data.labels = dept24hoursData.labels;
         lc.data.datasets.forEach((dataset) => {
           dataset.data = dept24hoursData.counts;
-          dataset.label = "Last 24 Hours"
+          dataset.label = "Access Count - Last 24 hours"
         });
         lc.update();
       });
@@ -498,7 +560,7 @@ async function start(){
         lc.data.labels = deptWeekData.labels;
         lc.data.datasets.forEach((dataset) => {
           dataset.data = deptWeekData.counts;
-          dataset.label = "Last Week"
+          dataset.label = "Access Count - Last Week"
         });
         lc.update();
       });
@@ -512,7 +574,7 @@ async function start(){
         lc.data.labels = deptMonthData.labels;
         lc.data.datasets.forEach((dataset) => {
           dataset.data = deptMonthData.counts;
-          dataset.label = "Last Month"
+          dataset.label = "Access Count - Last Month"
         });
         lc.update();
       });
@@ -526,7 +588,7 @@ async function start(){
         lc.data.labels = deptYearData.labels;
         lc.data.datasets.forEach((dataset) => {
           dataset.data = deptYearData.counts;
-          dataset.label = "Last Year"
+          dataset.label = "Access Count - Last Year"
         });
         lc.update();
       });
