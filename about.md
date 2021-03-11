@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 author: Bocephus
@@ -7,15 +7,36 @@ excerpt: >-
   Four score and seven years ago, This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+<div class="container"> 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+<h1>Open Data</h1>
+<br>
+<p>Chicago's open data program is a beacon of transparency in government. Open data <a href="http://opendatatoolkit.worldbank.org/en/open-data-in-60-seconds.html">helps</a> streamline government services, stimulate economic opportunities, improve public safety, and reduce poverty. Chicago’s open data is used every day by media, scholars, businesses, financial markets, and the general public to seek answers to important questions.</p>
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+<p>Open data plays a pivotal role in informed public discourse. Opening the books on government makes it easier to access facts, enabling more robust debate about what to change and how to change it. By entrusting the public with access to their data, a transparent and open government builds trust and encourages participation.</p>
 
+<p>Open datasets are freely accessible to anyone in the world. They are formatted for ease and readability. They are also machine-readable and immediately ready for data analysis.</p>
 
-[jekyll-organization]: https://github.com/jekyll
+<p>Some highlights of our current datasets are listed below. Find these and more open data at <a href="https://data.cityofchicago.org">data.cityofchicago.org</a></p>
+
+<h4>Public Health</h4>
+
+<p>COVID-19 Status and Impact<br>Food and Medicine Access Maps</p>
+
+<h4>Government Spending</h4>
+
+<p>City Budget<br>Salaries<br>Contracts and Payments<br>Tax Increment Financing (TIF)</p>
+
+<h4>Public Safety</h4>
+
+<p>Arrests<br>Crimes<br>Shootings</p>
+
+<h4>Equity</h4>
+
+<p>TK</p>
+
+<h4>Mobility</h4>
+
+<p>Public Transit Use<br>Ride-hail and Taxi Trips<br>Bikeshare Use<br>Scooters Trips<br>Congestion and Traffic Conditions</p>
+
+</div>
