@@ -12,7 +12,7 @@ layout: home
 <br>
 <p>This report provides real-time metrics on Chicago’s open data program and is intended to inform public debate and help identify opportunities for growth and expansion of this important program.</p>
 <br>
-<p>Updated March 2, 2020</p>
+<p>Updated March 2, 2021</p>
 <br>
 <h3><a id="dataset"></a> open datasets</h3> 
 <br>
