@@ -7,4 +7,4 @@ layout: home
 
 # Chicago Digital Services
 
-This content will soon be replaced. Enjoy it while it's here.
+For more information about Chicago's digital assets, check out our design system at [design.chicago.gov](https://design.chicago.gov).
