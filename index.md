@@ -415,10 +415,10 @@ async function getCurrentNumbers() {
   
   avgSalary = data[0].avg_annual_salary;
 
-  //  document.getElementById("dataset").innerHTML = avgSalary.substring(0,3);
-  //  document.getElementById("otherAssets").innerHTML = Number(avgSalary.substring(0,5)).toLocaleString();
-  document.getElementById("dataset").innerHTML = '551';
-  document.getElementById("otherAssets").innerHTML = '13,950'
+  // document.getElementById("dataset").innerHTML = avgSalary.substring(0,3);
+  // document.getElementById("otherAssets").innerHTML = Number(avgSalary.substring(0,5)).toLocaleString();
+  document.getElementById("dataset").innerHTML = '610';
+  document.getElementById("otherAssets").innerHTML = '13,468'
 }
 
 getCurrentNumbers()
