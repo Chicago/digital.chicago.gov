@@ -1,123 +1,128 @@
-[{"department":"Department of Human Resources","visits":"416","downloads":"6"}
+[{"department":"Department of Human Resources","visits":"797","downloads":"7"}
 ,{"department":"Budget and Management","visits":"450","downloads":"22"}
-,{"department":" Budget & Management","visits":"4950","downloads":"1899"}
-,{"visits":"3686812","downloads":"224404"}
+,{"department":" Budget & Management","visits":"5170","downloads":"2010"}
+,{"visits":"1310072","downloads":"235593"}
 ,{"department":"RSocrata Core Development Team","visits":"4","downloads":"0"}
-,{"department":"Connect Chicago","visits":"28201","downloads":"10405"}
-,{"department":"Police","visits":"3364941","downloads":"851038"}
-,{"department":"Independent Police Review Authority","visits":"7500","downloads":"5313"}
-,{"department":"Assets, Information & Services","visits":"52","downloads":"41"}
-,{"department":"Family & Support Services","visits":"222798","downloads":"38027"}
+,{"department":"Connect Chicago","visits":"38699","downloads":"12310"}
+,{"department":"Police","visits":"6784604","downloads":"1058070"}
+,{"department":"Independent Police Review Authority","visits":"7656","downloads":"5860"}
+,{"department":"Assets, Information & Services","visits":"242","downloads":"182"}
+,{"department":"Family & Support Services","visits":"229441","downloads":"40916"}
 ,{"department":"Cultural Affairs and Special Events","visits":"24","downloads":"1"}
-,{"department":"Department of Planning and Development","visits":"6830","downloads":"23298"}
-,{"department":"Office of the City Clerk","visits":"31668","downloads":"16903"}
-,{"department":"City of Chicago - Office of Budget and Management","visits":"4975","downloads":"5757"}
-,{"department":"Housing & Economic Development Fiscal","visits":"277","downloads":"136"}
-,{"department":"Chicago Department of Transportation","visits":"8911","downloads":"2399"}
-,{"department":"Budget","visits":"3457","downloads":"1902"}
-,{"department":"Water Management","visits":"77502","downloads":"11417"}
-,{"department":"Office of the Mayor","visits":"15358","downloads":"8307"}
-,{"department":"Street & Sanitation","visits":"4405","downloads":"7193"}
-,{"department":"Board of Ethics","visits":"39537","downloads":"48017"}
-,{"department":" Office of Budget and Management","visits":"9280","downloads":"2169"}
-,{"department":"Law","visits":"12065","downloads":"28846"}
-,{"department":"Cultural Affairs & Special Events","visits":"32877","downloads":"37452"}
-,{"department":"City Clerk","visits":"778","downloads":"1282"}
-,{"department":"Chicago Department of Housing and Economic Development","visits":"19859","downloads":"3384"}
+,{"department":"Department of Planning and Development","visits":"16494","downloads":"26133"}
+,{"department":"Office of the City Clerk","visits":"34917","downloads":"19654"}
+,{"department":"City of Chicago - Office of Budget and Management","visits":"5653","downloads":"6085"}
+,{"department":"Housing & Economic Development Fiscal","visits":"325","downloads":"138"}
+,{"department":"Chicago Department of Transportation","visits":"138009","downloads":"6134"}
+,{"department":"Budget","visits":"3628","downloads":"2022"}
+,{"department":"Water Management","visits":"84297","downloads":"12993"}
+,{"department":"Office of the Mayor","visits":"15781","downloads":"9385"}
+,{"department":"Street & Sanitation","visits":"4950","downloads":"7388"}
+,{"department":"Board of Ethics","visits":"50633","downloads":"59165"}
+,{"department":" Office of Budget and Management","visits":"10272","downloads":"2284"}
+,{"department":"Law","visits":"12698","downloads":"32917"}
+,{"department":"Cultural Affairs & Special Events","visits":"38347","downloads":"40089"}
+,{"department":"City Clerk","visits":"888","downloads":"1315"}
+,{"department":"Chicago Department of Housing and Economic Development","visits":"22395","downloads":"4185"}
 ,{"department":"Finance & Revenue","visits":"7","downloads":"0"}
-,{"department":"Civilian Office of Police Accountability","visits":"30201","downloads":"4163"}
-,{"department":"Mayor's Office for People with Disabilities","visits":"4602","downloads":"1492"}
-,{"department":"License Appeal Commission","visits":"2485","downloads":"5111"}
-,{"department":"Finance","visits":"95322","downloads":"36558"}
+,{"department":"Civilian Office of Police Accountability","visits":"48661","downloads":"5431"}
+,{"department":"Mayor's Office for People with Disabilities","visits":"4832","downloads":"1621"}
+,{"department":"License Appeal Commission","visits":"2743","downloads":"5279"}
+,{"department":"Finance","visits":"107594","downloads":"57608"}
 ,{"department":"Planning & Development","visits":"7","downloads":"0"}
-,{"department":"General Services & Fleet Management","visits":"3008","downloads":"6958"}
-,{"department":"Department of Procurement Services","visits":"3646","downloads":"2588"}
-,{"department":"Department of Planning & Development","visits":"30466","downloads":"10244"}
-,{"department":"null","visits":"0"}
-,{"department":"Department of Buildings","visits":"713026","downloads":"72843"}
-,{"department":"Budget & Management","visits":"348381","downloads":"88727"}
-,{"department":"Epidemiology and Public Health Informatics, Chicago Department of Public Health (CDPH)","visits":"125675","downloads":"47717"}
-,{"department":"Revenue","visits":"14835","downloads":"7820"}
+,{"department":"General Services & Fleet Management","visits":"3236","downloads":"7222"}
+,{"department":"Department of Procurement Services","visits":"4346","downloads":"2981"}
+,{"department":"Department of Planning & Development","visits":"38877","downloads":"10389"}
+,{"department":"null"}
+,{"department":"Department of Buildings","visits":"778906","downloads":"78785"}
+,{"department":"Budget & Management","visits":"390994","downloads":"101999"}
+,{"department":"Epidemiology and Public Health Informatics, Chicago Department of Public Health (CDPH)","visits":"141632","downloads":"50071"}
+,{"department":"Revenue","visits":"15668","downloads":"8367"}
 ,{"department":"Chicago Commission on Human Relations","visits":"76","downloads":"3"}
-,{"department":"Water","visits":"2572","downloads":"626"}
-,{"department":"jason cline","visits":"3","downloads":"0"}
-,{"department":"Cook County","visits":"23299","downloads":"43987"}
-,{"department":"Planning and Development","visits":"16359","downloads":"8613"}
-,{"department":"U.S. Census Bureau","visits":"17569","downloads":"9472"}
-,{"department":"Administrative Hearings and Finance","visits":"39762","downloads":"6078"}
-,{"department":"Fire","visits":"242356","downloads":"31546"}
-,{"department":"Family and Support Services","visits":"14422","downloads":"5368"}
-,{"department":"Public Building Commission","visits":"6617","downloads":"7471"}
-,{"department":"","visits":"891505","downloads":"425182"}
-,{"department":"Chicago Public Library","visits":"186810","downloads":"77851"}
-,{"department":"Adam Jentleson","visits":"2787","downloads":"3101"}
-,{"department":"Innovation and Technology","visits":"9504","downloads":"11101"}
-,{"department":"Human Resources","visits":"1851341","downloads":"14170527"}
-,{"department":"Department of Housing and Economic Development","visits":"45839","downloads":"16189"}
-,{"department":"United States Census Bureau","visits":"77246","downloads":"29012"}
-,{"department":"311","visits":"54668","downloads":"11605"}
-,{"department":"Innovation & Technology","visits":"25924","downloads":"13630"}
-,{"department":"Department of Public Health","visits":"283073","downloads":"115108"}
-,{"department":"William Harris","visits":"3237","downloads":"59"}
-,{"department":"Smart Chicago Collaborative","visits":"6952","downloads":"5482"}
-,{"department":"Animal Care & Control","visits":"17308","downloads":"6502"}
+,{"department":"Water","visits":"3264","downloads":"1544"}
+,{"department":"Cook County","visits":"26431","downloads":"47350"}
+,{"department":"Planning and Development","visits":"17034","downloads":"9842"}
+,{"department":"U.S. Census Bureau","visits":"19752","downloads":"10206"}
+,{"department":"Administrative Hearings and Finance","visits":"51278","downloads":"6905"}
+,{"department":"Family and Support Services","visits":"16310","downloads":"6294"}
+,{"department":"Fire","visits":"256217","downloads":"34906"}
+,{"department":"Public Building Commission","visits":"7100","downloads":"9457"}
+,{"department":"","visits":"1027277","downloads":"438650"}
+,{"department":"Chicago Public Library","visits":"199817","downloads":"86767"}
+,{"department":"Adam Jentleson","visits":"6512","downloads":"4577"}
+,{"department":"Innovation and Technology","visits":"11226","downloads":"13755"}
+,{"department":"Human Resources","visits":"1976001","downloads":"14218507"}
+,{"department":"Department of Housing and Economic Development","visits":"50500","downloads":"18716"}
+,{"department":"311","visits":"55311","downloads":"12696"}
+,{"department":"United States Census Bureau","visits":"89887","downloads":"28994"}
+,{"department":"Innovation & Technology","visits":"27089","downloads":"21483"}
+,{"department":"Department of Housing","visits":"502008","downloads":"51566"}
+,{"department":"Department of Public Health","visits":"708481","downloads":"248269"}
+,{"department":"William Harris","visits":"5157","downloads":"59"}
+,{"department":"Smart Chicago Collaborative","visits":"7795","downloads":"6063"}
+,{"department":"Animal Care & Control","visits":"17643","downloads":"7425"}
 ,{"department":"Office of the Chicago City Clerk","visits":"4","downloads":"1"}
-,{"department":"Business Affairs and Consumer Protection","visits":"270322","downloads":"84699"}
-,{"department":"Office of Budget and Management","visits":"21426","downloads":"3521"}
-,{"department":"Department of Finance","visits":"9","downloads":"1"}
-,{"department":"Department of Innovation & Technology","visits":"154","downloads":"0"}
-,{"department":"Chicago Department of Planning and Development","visits":"213984","downloads":"15662"}
-,{"department":"Mayor's Office","visits":"463","downloads":"3511"}
-,{"department":"Various","visits":"600","downloads":"935"}
-,{"department":"Office of Budget & Management","visits":"10535","downloads":"2004"}
-,{"department":"Chicago Park District","visits":"813811","downloads":"153816"}
-,{"department":"Chicago Police Department","visits":"373557","downloads":"77270"}
-,{"department":"Chicago Transit Authority ","visits":"248354","downloads":"78810"}
-,{"department":"Choose Chicago","visits":"71661","downloads":"47145"}
-,{"department":"Epidemiology & Public Health Informatics, Chicago Department of Public Health","visits":"7446","downloads":"7794"}
-,{"department":"City Colleges of Chicago","visits":"5013","downloads":"5696"}
-,{"department":"Business Affairs & Consumer Protection","visits":"1040899","downloads":"416328"}
-,{"department":"Housing & Economic Development","visits":"427065","downloads":"142028"}
-,{"department":"Housing and Economic Development","visits":"543891","downloads":"79577"}
-,{"department":"Chicago Department of Public Health","visits":"102416","downloads":"207062"}
-,{"department":"Chicago Board of Election Commissioners","visits":"31633","downloads":"3876"}
-,{"department":"Chicago City Clerk","visits":"26258","downloads":"4238"}
-,{"department":"Planning and Economic Development","visits":"7973","downloads":"4498"}
-,{"department":"City of Chicago","visits":"92834","downloads":"30570"}
-,{"department":"Chicago Police Board","visits":"14497","downloads":"42520"}
-,{"department":"Chicago Public Libraries","visits":"1842","downloads":"860"}
-,{"department":"Fleet & Facility Management","visits":"5690","downloads":"2393"}
-,{"department":"Transportation","visits":"811331","downloads":"2219850"}
-,{"department":"Administrative Hearings","visits":"95739","downloads":"17076"}
-,{"department":"Chicago Department of Transportation | DXO","visits":"1500","downloads":"147"}
-,{"department":"State of Illinois","visits":"2131","downloads":"9956"}
-,{"department":"Emergency Management & Communications","visits":"14247","downloads":"12122"}
-,{"department":"Aviation","visits":"9713","downloads":"6501"}
-,{"department":"Chicago Department of Public Health ","visits":"12418","downloads":"58499"}
-,{"department":"Environment","visits":"6239","downloads":"6817"}
-,{"department":"Procurement Services","visits":"112964","downloads":"87949"}
-,{"department":"Marie E. Hardy","visits":"5078","downloads":"7143"}
-,{"department":"City of Chicago Sustainability Program","visits":"53111","downloads":"8690"}
-,{"department":"Buildings","visits":"885006","downloads":"1669507"}
-,{"department":"Public Health","visits":"885190","downloads":"298458"}
-,{"department":"Surveillance, Epidemiology and Research Section, Sexually Transmitted Infection/HIV/AIDS Division, Chicago Department of Public Health (CDPH)","visits":"11107","downloads":"22305"}
-,{"department":"Streets & Sanitation","visits":"821634","downloads":"235190"}
-,{"department":"Department of Transportation","visits":"84762","downloads":"19967"}
-,{"department":"Board of Elections","visits":"6161","downloads":"5488"}
-,{"department":"Tuberculosis Control Program, Chicago Department of Public Health (CDPH)","visits":"5407","downloads":"5372"}
-,{"department":"Human Relations","visits":"3263","downloads":"5219"}
-,{"department":"Office of Emergency Management & Communications","visits":"902","downloads":"686"}
-,{"department":"Housing & Economic Development Fiscal Year Ending Dec 31, 2009 Data is updated annually","visits":"212","downloads":"137"}
+,{"department":"Business Affairs and Consumer Protection","visits":"315105","downloads":"111231"}
+,{"department":"Office of Budget and Management","visits":"26402","downloads":"4742"}
+,{"department":"Department of Finance","visits":"43319","downloads":"756"}
+,{"department":"Department of Innovation & Technology","visits":"175","downloads":"0"}
+,{"department":"Chicago Department of Planning and Development","visits":"230202","downloads":"19815"}
+,{"department":"Mayor's Office","visits":"571","downloads":"3639"}
+,{"department":"Various","visits":"793","downloads":"1022"}
+,{"department":"Office of Budget & Management","visits":"11512","downloads":"2144"}
+,{"department":"Chicago Park District","visits":"886393","downloads":"167490"}
+,{"department":"Chicago Police Department","visits":"542376","downloads":"124351"}
+,{"department":"Chicago Transit Authority ","visits":"280575","downloads":"275940"}
+,{"department":"Epidemiology & Public Health Informatics, Chicago Department of Public Health","visits":"8625","downloads":"8241"}
+,{"department":"Choose Chicago","visits":"88862","downloads":"48035"}
+,{"department":"City Colleges of Chicago","visits":"5553","downloads":"6191"}
+,{"department":"Business Affairs & Consumer Protection","visits":"1285495","downloads":"557298"}
+,{"department":"Housing and Economic Development","visits":"74975","downloads":"34890"}
+,{"department":"Housing & Economic Development","visits":"253998","downloads":"147641"}
+,{"department":"Chicago Department of Public Health","visits":"121513","downloads":"214408"}
+,{"department":"Chicago Board of Election Commissioners","visits":"36908","downloads":"3875"}
+,{"department":"Chicago City Clerk","visits":"31756","downloads":"4635"}
+,{"department":"Planning and Economic Development","visits":"10737","downloads":"5464"}
+,{"department":"City of Chicago","visits":"173699","downloads":"50002"}
+,{"department":"Chicago Police Board","visits":"14816","downloads":"42822"}
+,{"department":"Chicago Public Libraries","visits":"10057","downloads":"2651"}
+,{"department":"Fleet & Facility Management","visits":"5883","downloads":"2739"}
+,{"department":"Transportation","visits":"1162523","downloads":"2297703"}
+,{"department":"Administrative Hearings","visits":"130423","downloads":"22715"}
+,{"department":"Department of Buildings and Department of Law","visits":"8441","downloads":"2489"}
+,{"department":"Chicago Department of Transportation | DXO","visits":"1575","downloads":"150"}
+,{"department":"State of Illinois","visits":"2340","downloads":"17276"}
+,{"department":"Emergency Management & Communications","visits":"14834","downloads":"13647"}
+,{"department":"Aviation","visits":"10028","downloads":"7539"}
+,{"department":"Chicago Department of Public Health ","visits":"15401","downloads":"59909"}
+,{"department":"Environment","visits":"6556","downloads":"7177"}
+,{"department":"Procurement Services","visits":"186720","downloads":"94952"}
+,{"department":"Department of Law","visits":"189","downloads":"3"}
+,{"department":"Marie E. Hardy","visits":"5786","downloads":"7579"}
+,{"department":"City of Chicago Sustainability Program","visits":"72708","downloads":"12651"}
+,{"department":"Buildings","visits":"946307","downloads":"1682477"}
+,{"department":"Department of Streets & Sanitation","visits":"3915","downloads":"97"}
+,{"department":"Public Health","visits":"1038832","downloads":"336105"}
+,{"department":"Surveillance, Epidemiology and Research Section, Sexually Transmitted Infection/HIV/AIDS Division, Chicago Department of Public Health (CDPH)","visits":"12239","downloads":"23125"}
+,{"department":"Streets & Sanitation","visits":"895664","downloads":"258763"}
+,{"department":"Department of Transportation","visits":"129965","downloads":"29874"}
+,{"department":"Department of Business Affairs and Consumer Protection","visits":"536","downloads":"207"}
+,{"department":"Board of Elections","visits":"6570","downloads":"5650"}
+,{"department":"Tuberculosis Control Program, Chicago Department of Public Health (CDPH)","visits":"5816","downloads":"5498"}
+,{"department":"Human Relations","visits":"3512","downloads":"5425"}
+,{"department":"Office of Emergency Management & Communications","visits":"1745","downloads":"1429"}
+,{"department":"Housing & Economic Development Fiscal Year Ending Dec 31, 2009 Data is updated annually","visits":"260","downloads":"144"}
 ,{"department":"DoIT","visits":"10","downloads":"0"}
-,{"department":"Ethics","visits":"487701","downloads":"86956"}
-,{"department":"Chicago Public Schools","visits":"203346","downloads":"133695"}
-,{"department":"Department of Business Affairs & Consumer Protection","visits":"100304","downloads":"25242"}
-,{"department":"Chicago Transit Authority","visits":"307290","downloads":"57161"}
+,{"department":"Ethics","visits":"493064","downloads":"92810"}
+,{"department":"Chicago Public Schools","visits":"264429","downloads":"147342"}
+,{"department":"Department of Business Affairs & Consumer Protection","visits":"146456","downloads":"31805"}
+,{"department":"Chicago Transit Authority","visits":"321330","downloads":"63054"}
 ,{"department":"Procurement","visits":"73","downloads":"8"}
-,{"department":"Office of the Treasurer","visits":"2107","downloads":"2189"}
-,{"department":"Streets and Sanitation","visits":"4486","downloads":"7241"}
-,{"department":"Chicago Department of Business Affairs & Consumer Protection","visits":"50630","downloads":"6393"}
-,{"department":"Housing and Economic Development ","visits":"2094","downloads":"1682"}
-,{"department":"Epidemiology & Public Health Informatics","visits":"3093","downloads":"10944"}
-,{"department":"Housing & Economic Development ","visits":"2918","downloads":"1287"}
+,{"department":"My CHI. My Future.","visits":"3818","downloads":"175"}
+,{"department":"Office of the Treasurer","visits":"2297","downloads":"2384"}
+,{"department":"Streets and Sanitation","visits":"5262","downloads":"7510"}
+,{"department":"Chicago Department of Business Affairs & Consumer Protection","visits":"92078","downloads":"9601"}
+,{"department":"Housing and Economic Development ","visits":"2320","downloads":"1886"}
+,{"department":"Epidemiology & Public Health Informatics","visits":"3716","downloads":"11507"}
+,{"department":"Housing & Economic Development ","visits":"3353","downloads":"1311"}
 ,{"department":"Metra","visits":"11","downloads":"0"}]

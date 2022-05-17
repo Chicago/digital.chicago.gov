@@ -12,7 +12,7 @@ layout: home
 <br>
 <p>This report provides real-time metrics on Chicago’s open data program and is intended to inform public debate and help identify opportunities for growth and expansion of this important program.</p>
 <br>
-<p>Updated March 2, 2020</p>
+<p>Updated May 17, 2022</p>
 <br>
 <h3><a id="dataset"></a> open datasets</h3> 
 <br>
@@ -76,7 +76,7 @@ async function getData(address) {
 
   // public datasets launched = https://data.cityofchicago.org/resource/ip5i-wfzw.json?$select=date_trunc_ym(creation_date)%20as%20month,count(creation_date)%20as%20count&$group=month&$where=Audience=%22public%22&type=%27dataset%27&$order=month
 
-  // public datasets last updated = https://data.cityofchicago.org/resource/ip5i-wfzw.json?$select=date_trunc_y(last_data_updated_date)%20as%20month,count(last_data_updated_date)%20as%20count&$group=month&$where=Audience=%22public%22&type=%27dataset%27&$order=month
+  // public datasets last updated = https://data.cityofchicago.org/resource/ip5i-wfzw.json?$select=date_trunc_ym(last_data_updated_date)%20as%20month,count(last_data_updated_date)%20as%20count&$group=month&$where=Audience=%22public%22&type=%27dataset%27&$order=month
 
   // all assets access counts = https://data.cityofchicago.org/resource/fbwj-4m2z.json?$select=date_trunc_ym(Timestamp)%20as%20month,count(Timestamp)%20as%20count&$group=month&$order=month
 

@@ -1,10 +1,10 @@
-[{"department":"Crimes - 2001 to Present","count":"197280"}
-,{"department":"Chicago Traffic Tracker - Congestion Estimates by Regions","count":"65318"}
-,{"department":"Chicago Traffic Tracker - Congestion Estimates by Segments","count":"65064"}
-,{"department":"Public Chauffeurs","count":"41719"}
-,{"department":"COVID-19 Daily Cases, Deaths, and Hospitalizations","count":"21105"}
-,{"department":"COVID-19 Daily Testing - By Test","count":"17695"}
-,{"department":"COVID-19 Daily Vaccinations - Chicago Residents","count":"13784"}
-,{"department":"Food Inspections","count":"12468"}
-,{"department":"City-Owned Land Inventory","count":"12058"}
-,{"department":"Chicago Traffic Tracker - Historical Congestion Estimates by Region - 2018-Current","count":"12007"}]
+[{"department":"Chicago Traffic Tracker - Congestion Estimates by Segments","count":"64193553"}
+,{"department":"Crimes - 2001 to Present","count":"9148716"}
+,{"department":"Traffic Crashes - Vehicles","count":"8448875"}
+,{"department":"Traffic Crashes - People","count":"8447616"}
+,{"department":"Speed Camera Locations","count":"4274118"}
+,{"department":"Chicago Traffic Tracker - Congestion Estimates by Regions","count":"4162243"}
+,{"department":"Public Chauffeurs","count":"2944636"}
+,{"department":"Business Licenses","count":"2335863"}
+,{"department":"CommAreas","count":"1266286"}
+,{"department":"City-Owned Land Inventory","count":"1167866"}]
