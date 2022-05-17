@@ -1,10 +1,10 @@
-[{"department":"Chicago Traffic Tracker - Congestion Estimates by Segments","count":"69168539"}
-,{"department":"Crimes - 2001 to Present","count":"12632394"}
-,{"department":"Traffic Crashes - Vehicles","count":"8469364"}
-,{"department":"Traffic Crashes - People","count":"8463432"}
-,{"department":"Chicago Traffic Tracker - Congestion Estimates by Regions","count":"7775125"}
-,{"department":"Public Chauffeurs","count":"6514381"}
-,{"department":"CommAreas","count":"4798223"}
-,{"department":"Speed Camera Locations","count":"4297869"}
-,{"department":"Business Licenses","count":"2442949"}
-,{"department":"COVID-19 Testing Sites","count":"2007248"}]
+[{"department":"Chicago Traffic Tracker - Congestion Estimates by Segments","count":"62903336"}
+,{"department":"Traffic Crashes - People","count":"8442877"}
+,{"department":"Traffic Crashes - Vehicles","count":"8442608"}
+,{"department":"Crimes - 2001 to Present","count":"6281198"}
+,{"department":"Chicago Traffic Tracker - Congestion Estimates by Regions","count":"3277502"}
+,{"department":"Public Chauffeurs","count":"2397896"}
+,{"department":"Business Licenses","count":"1428158"}
+,{"department":"City-Owned Land Inventory","count":"978306"}
+,{"department":"CDPH Environmental Inspections","count":"757701"}
+,{"department":"COVID-19 Daily Vaccinations - Chicago Residents","count":"708653"}]
